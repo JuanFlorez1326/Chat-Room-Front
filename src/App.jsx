@@ -1,13 +1,19 @@
-import './App.css'
-import io from 'socket.io-client'
-
-
-const socket = io('http://localhost:3001')
+import { Chat } from './Components/Chat/Chat'
+import { Footer } from './Components/Footer/Footer'
+import { Header } from './Components/Header/Header'
 
 function App() {
   return (
     <div className="App">
-     <h1>Socket</h1> 
+      <header>
+        <Header />
+      </header>
+      <main>
+        <Chat />
+      </main>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   )
 }
