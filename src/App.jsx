@@ -1,3 +1,4 @@
+import React from 'react'
 import { Chat } from './Components/Chat/Chat'
 import { Footer } from './Components/Footer/Footer'
 import { Header } from './Components/Header/Header'

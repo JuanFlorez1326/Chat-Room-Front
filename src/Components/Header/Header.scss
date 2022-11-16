@@ -1,12 +1,16 @@
 .container-title{
-    background-color: rgb(29 78 216);
+    background-color: #127475;
     padding:20px;
     font-size: 30px;
     display:flex;
     align-items:center;
     justify-content:center;
+    border-radius: 0px 0px 200px 200px;
+    -webkit-border-radius: 0px 0px 200px 200px;
+    -moz-border-radius: 0px 0px 200px 200px;
+
     .title{
        font-weight:bold;
-         color:white;
+         color:#FFF;
     }
 }
